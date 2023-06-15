@@ -1,3 +1,4 @@
+/*
 body{
     background-color: lightblue;
     color: darkblue;
@@ -154,3 +155,310 @@ form{
 .greeting{
     text-align: center;
 }
+
+*/
+
+/* ESTO ES LO DE CHATGT:
+footer {
+    background-color: lightcoral;
+    color: white;
+    font-size: 11px;
+  }
+  
+footer button {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+footer button:hover {
+    background-color: #e65252;
+  }
+.container-nav {
+    background-color: black;
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+.brand {
+    color: turquoise;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+.nav-links li {
+    margin-right: 10px;
+  }
+  
+.nav-links a {
+    color: turquoise;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+.button-menu-toggle {
+    background-color: turquoise;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+iframe {
+    background-color: yellow;
+  }
+  
+iframe,
+iframe:focus,
+iframe:active {
+    outline: none;
+  }
+  
+iframe,
+iframe p {
+    color: turquoise;
+    font-size: 15px;
+  }
+  
+footer button {
+    background-color: yellow;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .services {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .services h2 {
+    text-align: center;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .service img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .service h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  ESTO QUE SIGUE ES RESUMEN: */
+
+
+  body {
+    background-color: lightblue;
+    color: darkblue;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+  
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: black;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-menu-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20, 20, 20, 0.95);
+      width: 100%;
+      height: 100%;
+      top: 38.4px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap: 70px;
+      font-size: 40px;
+    }
+  
+    .images {
+      flex-direction: column;
+    }
+  }
+  
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    min-height: 200px;
+    background-color: lightcoral;
+    color: white;
+    font-size: 11px;
+  }
+  
+  footer button {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer button:hover {
+    background-color: #e65252;
+  }
+  
+  .services {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .services h2 {
+    text-align: center;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .service img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .service h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom:bottom}
+  
